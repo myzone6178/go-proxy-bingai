@@ -302,10 +302,10 @@ const auth = async () => {
     <ChatServiceSelect />
     <!-- 授权 -->
     <div v-if="isShowUnauthorizedModal" class="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-black/40 z-50">
-      <NResult class="bg-white px-28 py-4 rounded-md" status="403" title="401 未授权">
+      <NResult class="bg-white px-28 py-4 rounded-md" status="403" title="需要密码">
         <template #footer>
-          <NInput v-model:value="authKey" type="password" placeholder="请输入授权码" maxlength="60"></NInput>
-          <n-button class="mt-4" secondary type="info" :loading="isAuthBtnLoading" @click="auth">授权</n-button>
+          <NInput v-model:value="authKey" type="password" placeholder="请输入密码" maxlength="60"></NInput>
+          <n-button class="mt-4" secondary type="info" :loading="isAuthBtnLoading" @click="auth">确认</n-button>
         </template>
       </NResult>
     </div>
