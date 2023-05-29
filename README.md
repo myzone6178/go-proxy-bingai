@@ -198,7 +198,7 @@ RAILWAY_DOCKERFILE_PATH=docker/Dockerfile
 
 ### Render
 
-一键部署，点这里 => [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/adams549659584/go-proxy-bingai)
+一键部署，点这里 => [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/myzone6178/go-proxy-bingai)
 
 ![Render 一键部署](./docs/img/render-1.png)
 
